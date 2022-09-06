@@ -16,7 +16,7 @@ public class PowersOfTwo {
         else {
             long[] exp = new long[n + 1];
             for (int i = 0; i <= n; i++) {
-                exp[i] = ((int) Math.pow(2, i));
+                exp[i] = ((long) Math.pow(2, i));
             }
             return exp;
         }
