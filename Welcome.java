@@ -8,7 +8,7 @@ public class Welcome {
     }
 
     public static String greet(String lang) {
-        Map<String, String> mapList = new HashMap<>();
+        HashMap<String, String> mapList = new HashMap<>();
         mapList.put("english", "Welcome");
         mapList.put("czech", "Vitejte");
         mapList.put("danish", "Velkomst");
