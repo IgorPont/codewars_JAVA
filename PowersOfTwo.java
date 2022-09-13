@@ -20,6 +20,11 @@ public class PowersOfTwo {
             }
             return exp;
         }
+
+        // long ret[] = new long[n + 1];
+        // for (int i = 0; i <= n; i++)
+        // ret[i] = 1L << i;
+        // return ret;
     }
 
 }
