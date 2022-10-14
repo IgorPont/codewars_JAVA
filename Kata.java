@@ -21,5 +21,7 @@ public class Kata {
             }
         }
         return minLen;
+
+        // return Arrays.stream(s.split(" ")).mapToInt(String::length).min().getAsInt();
     }
 }
